@@ -1,0 +1,39 @@
+body {
+  background: black;
+}
+
+header {
+  text-align: center;
+  background: url("images/space-invaders.png"), black;
+  background-size: contain;
+  background-repeat: repeat-x;
+  color: white;
+}
+
+img.arcade-logo {
+  width: 30%;
+  margin: 40px 0px 0px 0px;
+  border: 7px solid white;
+  border-radius: 20px;
+  background-color: black;
+}
+
+.announcement {
+  background: black;
+  border: 7px solid red;
+  border-radius: 20px;
+  color: red;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+ul.games {
+  list-style: none;
+}
+
+.games .game {
+  background: #ddd;
+  margin: 20px;
+  border: 7px solid white;
+  border-radius: 20px;
+}
