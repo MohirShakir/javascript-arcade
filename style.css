@@ -33,7 +33,24 @@ ul.games {
 
 .games .game {
   background: #ddd;
-  margin: 20px;
+  width: 60%;
+  margin: 40px auto;
   border: 7px solid white;
   border-radius: 20px;
+  text-align: center;
+}
+
+.game.ttt img {
+  border: none;
+}
+
+.game img {
+  width: 50%;
+  border: 7px solid black;
+  border-radius: 20px;
+}
+
+.games .game-link {
+  text-decoration: none;
+  color: black;
 }
